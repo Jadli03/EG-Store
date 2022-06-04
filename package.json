@@ -1,5 +1,5 @@
 {
-  "name": "egstore",
+  "name": "globalgadgets",
   "version": "1.0.0",
   "description": "MERN e-commerce app",
   "main": "server.js",
@@ -11,7 +11,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
-  "author": "Brad Traversy",
+  "author": "Suraj Jadli",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
